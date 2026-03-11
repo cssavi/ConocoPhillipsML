@@ -1,0 +1,6 @@
+.DS_Store
+.venv/
+__pycache__/
+
+data/EBA.zip
+data/EBA-pre2019.zip

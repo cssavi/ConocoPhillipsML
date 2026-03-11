@@ -1,0 +1,63 @@
+{
+  "data_range_start": "2015-07-01T06:00:00+00:00",
+  "data_range_end": "2026-03-10T18:00:00+00:00",
+  "observations": 93588,
+  "best_model": "blend_ridge_direct_hgb_direct",
+  "best_model_rmse": 1362.078,
+  "day_ahead_rmse": 1634.62,
+  "naive_24_rmse": 3560.561,
+  "rmse_gain_vs_day_ahead_pct": 16.67,
+  "rmse_gain_vs_naive_24_pct": 61.75,
+  "top_hour_gains": [
+    {
+      "local_hour": 11,
+      "mae_gain": 263.2804957978914
+    },
+    {
+      "local_hour": 9,
+      "mae_gain": 261.095067856729
+    },
+    {
+      "local_hour": 10,
+      "mae_gain": 253.44302935398105
+    }
+  ],
+  "backtest_rmse_table": [
+    {
+      "fold": "fold_1",
+      "day_ahead": 1355.5754982838907,
+      "naive_24": 3112.897625203887,
+      "ridge_direct": 1268.0687194025552
+    },
+    {
+      "fold": "fold_2",
+      "day_ahead": 1266.232358970802,
+      "naive_24": 2778.358521574342,
+      "ridge_direct": 1214.8953571068866
+    },
+    {
+      "fold": "fold_3",
+      "day_ahead": 2732.426141553989,
+      "naive_24": 5072.098684516715,
+      "ridge_direct": 2217.6372013088685
+    },
+    {
+      "fold": "fold_4",
+      "day_ahead": 1757.0540863900576,
+      "naive_24": 4454.4712335178565,
+      "ridge_direct": 1321.5404494470731
+    },
+    {
+      "fold": "fold_5",
+      "day_ahead": 854.4256808216962,
+      "naive_24": 1932.762889468018,
+      "ridge_direct": 780.8466837709093
+    },
+    {
+      "fold": "fold_6",
+      "day_ahead": 1127.5051261629853,
+      "naive_24": 2949.9559944256152,
+      "ridge_direct": 1054.3696466760666
+    }
+  ]
+}
